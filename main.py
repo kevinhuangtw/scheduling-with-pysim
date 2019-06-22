@@ -1,8 +1,8 @@
 import simpy
 import random
 
-from simpy_howard.demo.utils import Job, Task, Machine
-from simpy_howard.demo.simulator import JobShopSimulator
+from utils import Job, Task, Machine
+from simulator import JobShopSimulator
 
 data1 = [
     (0, [(1, 3), (2, 2), (3, 3)]),  # 8 橘

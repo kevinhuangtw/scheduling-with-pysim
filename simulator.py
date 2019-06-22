@@ -1,7 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-from simpy_howard.demo.utils import Machine
+from utils import Machine
 
 
 class JobShopSimulator:
